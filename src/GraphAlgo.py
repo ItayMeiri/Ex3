@@ -1,14 +1,10 @@
-import threading
 from typing import List
-import threading
 from src import GraphAlgoInterface, GraphInterface
 import json
-import os
 from src.DiGraph import DiGraph
 import matplotlib.pyplot as plt
 import numpy as np
 import random
-from graphics import *
 import sys
 
 class GraphAlgo(GraphAlgoInterface.GraphAlgoInterface):
